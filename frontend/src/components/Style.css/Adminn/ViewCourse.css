@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #f0f0f0;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.update-button {
+    background-color: blue;
+    color: white;
+}
+
+.course-contents-button {
+    background-color: green;
+    color: white;
+}

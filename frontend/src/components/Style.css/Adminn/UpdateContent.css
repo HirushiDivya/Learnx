@@ -1,0 +1,58 @@
+.update-content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.update-content-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.update-content-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-content-container form div {
+    margin-bottom: 15px;
+}
+
+.update-content-container form label {
+    font-weight: bold;
+}
+
+.update-content-container form input,
+.update-content-container form textarea,
+.update-content-container form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.update-content-container form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-content-container form button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f;
+}
